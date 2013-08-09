@@ -1,4 +1,11 @@
 Civicspaces::Application.routes.draw do
+  get "top_pages/home"
+  get "top_pages/citizens"
+  get "top_pages/spaces"
+  get "top_pages/about"
+  get "top_pages/find"
+  get "top_pages/list"
+  get "top_pages/resouces"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
