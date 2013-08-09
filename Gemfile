@@ -13,9 +13,11 @@ group :production do
 	gem 'pg'
 end
 
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+
+# add gmacie 08/09/2013
+gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
