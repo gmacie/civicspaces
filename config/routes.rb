@@ -1,4 +1,5 @@
 Civicspaces::Application.routes.draw do
+  root 'top_pages#home'
   get "top_pages/home"
   get "top_pages/citizens"
   get "top_pages/spaces"
