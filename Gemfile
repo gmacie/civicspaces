@@ -26,6 +26,7 @@ group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 	gem 'better_errors'
+	gem 'binding_of_caller'
 	gem 'simplecov'
 	gem 'coveralls', require: false
 end
