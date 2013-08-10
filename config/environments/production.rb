@@ -28,8 +28,7 @@ Civicspaces::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
-  # changed due to heroku no css issue 08/09/2013 gordon
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true
