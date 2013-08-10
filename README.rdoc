@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was born out of the Atlanta City Govathon in 2013.
 
-Things you may want to cover:
+CivicSpaces is a site to help active citizens, artists and nonprofits find unused
 
-* Ruby version
+spaces to host their events and display thier creative work. We serve as a 
 
-* System dependencies
+conduit, connectiong oweners of empty spaces with people who want to fill them for
 
-* Configuration
+a shorty-term project, event or activity
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version 2.0.0
+* Rails version 4.0.0
 
 
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
