@@ -8,19 +8,18 @@ gem 'rails', '4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-group :assets do
-	# Use SCSS for stylesheets
-	gem 'sass-rails', '~> 4.0.0'
+# there is no group assets in rails 4
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
 
-	# add gmacie 08/09/2013
-	gem 'bootstrap-sass', '~> 2.3.2.1'
+# add gmacie 08/09/2013
+gem 'bootstrap-sass', '~> 2.3.2.1'
 
-	# Use CoffeeScript for .js.coffee assets and views
-	gem 'coffee-rails', '~> 4.0.0'
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
 
-	# Use Uglifier as compressor for JavaScript assets
-	gem 'uglifier', '>= 1.3.0'
-end
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
