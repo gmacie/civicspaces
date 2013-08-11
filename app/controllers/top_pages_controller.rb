@@ -17,6 +17,10 @@ class TopPagesController < ApplicationController
   def list
   end
 
-  def resouces
+  def resources
   end
+
+  def sign_in
+  end
+  
 end

@@ -21,6 +21,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
+gem 'geocoder'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
