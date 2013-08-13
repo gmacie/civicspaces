@@ -7,6 +7,10 @@ gem 'rails', '4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'haml-rails'
+gem 'haml'
+
+gem 'devise'
 
 # there is no group assets in rails 4
 # Use SCSS for stylesheets
@@ -36,16 +40,16 @@ end
 group :test do
 	gem 'capybara'
 	gem 'factory_girl_rails'
+	gem 'cucumber-rails', :require => false, :branch => 'master_rails4_test',
+    :git => 'https://github.com/cucumber/cucumber-rails.git'
+    gem 'database_cleaner', '1.0.1'
 end
 
 group :production do
 	gem 'pg'
-	#gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-    #gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+	gem 'rails_12factor'
 end
 
-#gem 'rails_12factor', group: :production
-gem 'rails_12factor'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -72,3 +76,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#gem "mocha", group: :test

@@ -44,9 +44,9 @@ describe TopPagesController do
     end
   end
 
-  describe "GET 'resouces'" do
+  describe "GET 'resources'" do
     it "returns http success" do
-      get 'resouces'
+      get 'resources'
       response.should be_success
     end
   end

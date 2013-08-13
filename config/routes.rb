@@ -1,8 +1,12 @@
 Civicspaces::Application.routes.draw do
+  devise_for :users  
+ 
+  resources :cspaces
+
   root 'top_pages#home'
   get "home" => "top_pages#home"
   get "citizens" => "top_pages#citizens"
-  get "spaces" => "top_pages#spaces"
+  get "spaces_page" => "top_pages#spaces_page"
   get "about" => "top_pages#about"
   get "find" => "top_pages#find"
   get "list" => "top_pages#list"

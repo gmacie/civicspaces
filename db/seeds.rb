@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'csv'
+
+puts "Creating intial records from seed data:"
+
+CSV.read(Rails.root+"db/spaces.csv").each do |a|
+  Supply.new(:shortcode => a[1], :name => a[0]).save
+end
+puts "... Loaded #{Space.count} spaces"
+
+

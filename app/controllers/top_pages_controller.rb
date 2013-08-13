@@ -5,7 +5,7 @@ class TopPagesController < ApplicationController
   def citizens
   end
 
-  def spaces
+  def spaces_page
   end
 
   def about
