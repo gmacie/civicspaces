@@ -11,10 +11,11 @@
   %tbody
     - @cspaces.each do | space |
     %tr(data-link="#{edit_cspace_path cspace}")
-      %td
-        %td= cspace.id
-        %td= cspace.square_feet
-        %td= cspace.phone
-        %td= cspace.space_type
-        %td= cspace.maximum_occupants
-        %td= cspace.user_id
+      %td= cspace.space_type
+      %td= cspace.id
+      %td= cspace.square_feet
+      %td= cspace.phone
+      %td= cspace.space_type
+      %td= cspace.maximum_occupants
+      %td= cspace.space_type
+

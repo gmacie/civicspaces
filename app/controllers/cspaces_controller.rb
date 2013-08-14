@@ -10,7 +10,7 @@ def show
 end
 
 def new
-
+    @cspace = Cspace.new
 end
 
 def create

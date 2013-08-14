@@ -10,9 +10,11 @@ require 'csv'
 
 puts "Creating intial records from seed data:"
 
-CSV.read(Rails.root+"db/spaces.csv").each do |a|
-  Supply.new(:shortcode => a[1], :name => a[0]).save
+CSV.read(Rails.root+"db/cspace.csv").each do |a|
+  puts "gordon gordon gordon gordon"
+  puts a.inspect
+  Cspace.new(:address1 => a[0], :address2 => a[1], :square_feet => a[4], :phone => a[5]).save
 end
-puts "... Loaded #{Space.count} spaces"
+puts "... Loaded #{Cspace.count} spaces"
 
 
