@@ -27,22 +27,30 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'geocoder'
 
+gem 'figaro'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+  gem 'factory_girl_rails'
 	gem 'better_errors'
 	gem 'binding_of_caller'
 	gem 'simplecov'
 	gem 'coveralls', require: false
 end
 
+group :development do
+  gem 'quiet_assets'
+end
+
 group :test do
 	gem 'capybara'
-	gem 'factory_girl_rails'
 	gem 'cucumber-rails', :require => false, :branch => 'master_rails4_test',
     :git => 'https://github.com/cucumber/cucumber-rails.git'
-    gem 'database_cleaner', '1.0.1'
+  gem 'database_cleaner', '1.0.1'
+  gem 'email_spec'
+  gem 'launchy'
 end
 
 group :production do
