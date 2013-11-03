@@ -5,7 +5,7 @@ describe "TopPages" do
   describe "Home Page" do
     
     it "should have the content 'Home'" do
-      visit '/top_pages/home'
+      visit home_path
       page.should have_content('Home')
     end
   end

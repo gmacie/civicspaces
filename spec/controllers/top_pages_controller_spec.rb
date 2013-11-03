@@ -16,9 +16,9 @@ describe TopPagesController do
     end
   end
 
-  describe "GET 'spaces'" do
+  describe "GET 'spaces_page'" do
     it "returns http success" do
-      get 'spaces'
+      get 'spaces_page'
       response.should be_success
     end
   end

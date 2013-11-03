@@ -6,7 +6,7 @@ CivicSpaces is a site to help active citizens, artists and nonprofits find unuse
 
 spaces to host their events and display thier creative work. We serve as a 
 
-conduit, connecting oweners of empty spaces with people who want to fill them for
+conduit, connecting owners of empty spaces with people who want to fill them for
 
 a shorty-term project, event or activity
 
