@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131203184254) do
+ActiveRecord::Schema.define(version: 20131204205814) do
 
   create_table "cspaces", force: true do |t|
     t.string   "address1"
@@ -25,6 +25,18 @@ ActiveRecord::Schema.define(version: 20131203184254) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "lease_length"
+    t.boolean  "food_beverage",     default: false
+    t.boolean  "alcohol",           default: false
+    t.boolean  "music_noise",       default: false
+    t.boolean  "wifi",              default: false
+    t.string   "parking"
+    t.boolean  "handicap",          default: false
+    t.boolean  "furnished",         default: false
+    t.string   "bathroom"
+    t.string   "kitchen"
+    t.string   "photo_url"
+    t.string   "photo_caption"
   end
 
   create_table "spaces", force: true do |t|
