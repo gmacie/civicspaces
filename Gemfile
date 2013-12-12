@@ -17,7 +17,7 @@ gem 'devise'
 gem 'sass-rails', '~> 4.0.0'
 
 # add gmacie 08/09/2013
-gem 'bootstrap-sass', '~> 2.3.2.1'
+# removed 12-05-13 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
@@ -28,6 +28,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'geocoder'
 
 gem 'figaro'
+
+gem 'rabl'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
