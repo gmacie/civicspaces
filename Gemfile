@@ -43,6 +43,7 @@ group :development, :test do
   gem 'coveralls', require: false
   gem 'pry'
   gem 'awesome_print'
+  gem 'letter_opener'   # preview email in browser instead of sending it
 end
 
 group :development do
