@@ -7,8 +7,9 @@ gem 'rails', '4.0.2'
 
 # Use jquery as the JavaScript library.
 gem 'jquery-rails'
-gem 'haml-rails'
-gem 'haml'
+#gem 'haml-rails'
+#gem 'haml'
+gem 'slim'
 gem 'devise'
 
 # There is no group assets in rails 4.
@@ -40,6 +41,8 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'simplecov'
   gem 'coveralls', require: false
+  gem 'pry'
+  gem 'awesome_print'
 end
 
 group :development do
