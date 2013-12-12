@@ -15,8 +15,8 @@ gem 'devise'
 # Use SCSS for stylesheets.
 gem 'sass-rails'
 
-# Add gmacie 08/09/2013
-gem 'bootstrap-sass'
+# add gmacie 08/09/2013
+# removed 12-05-13 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use CoffeeScript for .js.coffee assets and views.
 gem 'coffee-rails'
@@ -28,7 +28,10 @@ gem 'geocoder'
 
 gem 'figaro'
 
-# Use sqlite3 as the database for Active Record.
+gem 'rabl'
+
+# Use sqlite3 as the database for Active Record
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
