@@ -21,9 +21,9 @@ after_success:
   - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
   - echo "   CheckHostIP no" >> ~/.ssh/config
   - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
-  - heroku keys:clear
-  - yes | heroku keys:add
-  - yes | git push heroku master
+  - # heroku keys:clear
+  - # yes | heroku keys:add
+  - # yes | git push heroku master
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start

@@ -16,14 +16,12 @@
     = f.label "Longitude"
     = f.text_field :longitude
 
+  h2 Size and Type
+
   .field
     = f.label "Square Feet"
     = f.text_field :address1
   
-  .field
-    = f.label "Phone"
-    = f.text_field :phone
-
   .field
     = f.label "Space Type"
     = f.text_field :space_type
@@ -36,9 +34,15 @@
     = f.label "Lease Length"
     = f.text_field :lease_length
   
+  h2 Allowed Uses
+  
   .field
-    = f.label "Food Beverage"
-    = f.text_field :food_beverage
+    = f.label :food_beverage
+    = f.check_box :food_beverage, :value => "1"
+
+  /.field
+  /  = f.label "Food Beverage"
+  /  = f.text_field :food_beverage
 
   .field
     = f.label "Alcohol"
@@ -47,6 +51,8 @@
   .field
     = f.label "Music Noise"
     = f.text_field :music_noise
+
+  h2 Amenities
 
   .field
     = f.label "WIFI"
@@ -71,6 +77,8 @@
   .field
     = f.label "Kitchen"
     = f.text_field :kitchen
+
+  h2 Photos and Description
 
   .field
     = f.label "Photo URL"
