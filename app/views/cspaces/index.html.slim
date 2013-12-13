@@ -1,0 +1,29 @@
+table.table.table-bordered.table-striped
+  thead
+    tr
+      th Id
+      th Sq Feet
+      th Type
+      th Lease
+      th FoodBeverage
+      th Alcohol
+      th MusicNoise
+      th WIFI
+      th Parking
+      th Handicap
+      th Max Occupants
+  tbody
+    tr
+      td
+        - @cspaces.each do | space |
+          = space.id
+          = space.square_feet
+          = space.lease_length
+          = space.food_beverage
+          = space.alcohol
+          = space.music_noise
+          = space.wifi
+          = space.parking
+          = space.handicap
+          = space.maximum_occupants        
+

@@ -1,0 +1,84 @@
+= form_for @cspace do |f|
+  
+  .field
+    = f.label "Address"
+    = f.text_field :address1
+
+  .field
+    = f.label "City"
+    = f.text_field :address2
+
+  .field
+    = f.label "Latitude"
+    = f.text_field :latitude
+  
+  .field
+    = f.label "Longitude"
+    = f.text_field :longitude
+
+  .field
+    = f.label "Square Feet"
+    = f.text_field :address1
+  
+  .field
+    = f.label "Phone"
+    = f.text_field :phone
+
+  .field
+    = f.label "Space Type"
+    = f.text_field :space_type
+  
+  .field
+    = f.label "Max Occupants"
+    = f.text_field :maximum_occupants
+  
+  .field
+    = f.label "Lease Length"
+    = f.text_field :lease_length
+  
+  .field
+    = f.label "Food Beverage"
+    = f.text_field :food_beverage
+
+  .field
+    = f.label "Alcohol"
+    = f.text_field :alcohol
+  
+  .field
+    = f.label "Music Noise"
+    = f.text_field :music_noise
+
+  .field
+    = f.label "WIFI"
+    = f.text_field :wifi
+  
+  .field
+    = f.label "Parking"
+    = f.text_field :parking
+
+  .field
+    = f.label "Handicap"
+    = f.text_field :handicap
+  
+  .field
+    = f.label "Furnished"
+    = f.text_field :furnished
+
+  .field
+    = f.label "Bathroom"
+    = f.text_field :bathroom
+  
+  .field
+    = f.label "Kitchen"
+    = f.text_field :kitchen
+
+  .field
+    = f.label "Photo URL"
+    = f.text_field :photo_url
+  
+  .field
+    = f.label "Photo Caption"
+    = f.text_field :photo_caption
+
+  div align="center"
+    .actions = f.submit 'Save'

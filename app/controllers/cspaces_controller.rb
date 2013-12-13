@@ -2,7 +2,7 @@ class CspacesController < ApplicationController
 
 def index
 	@cspaces = Cspace.all
-	puts @cspaces
+	#puts @cspaces
 end
 
 def show
