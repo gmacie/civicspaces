@@ -3,7 +3,6 @@ rvm:
 - 2.0.0
 script:
 - RAILS_ENV=test COVERAGE=true bundle exec rake --trace db:migrate spec cucumber
-- RAILS_ENV=test COVERAGE=true bundle exec cucumber -p javascript
 branches:
   only:
   - master
@@ -18,7 +17,6 @@ env:
   global:
 after_success:
   - wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-  - git remote add heroku git@heroku.com:medlink-staging.git
   - echo "Host heroku.com" >> ~/.ssh/config
   - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
   - echo "   CheckHostIP no" >> ~/.ssh/config
