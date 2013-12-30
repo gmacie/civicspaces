@@ -1,1 +1,1 @@
-rvm --default use ruby-2.0.0-p353@civicspaces --create
+rvm --default use ruby-2.1.0@civicspaces --create
