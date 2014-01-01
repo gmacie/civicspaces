@@ -16,6 +16,7 @@ notifications:
 before_script:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
+before_install: gem update bundler
 env:
   global:
     secure: ZB3cJsUoaPMAp9dTycSQFtP47sMOD6bmOt7uaY9WLZ0bbg7BrjkD1pShYDa6ZyUo8FzGkvnAEjUojFT8LICdgT7uFMREIU+c46MnOb6m9/6AHM/m0vJzNfYO1eW8wOGr8Lzp6Cn+kYsrHCC2Bar503c1FfRDihKP1SUubJwSC68=
