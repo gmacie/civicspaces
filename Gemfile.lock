@@ -67,7 +67,7 @@ GEM
       cucumber (>= 1.2.0)
       nokogiri (>= 1.5.0)
       rails (>= 3.0.0)
-    database_cleaner (1.0.1)
+    database_cleaner (1.2.0)
     debug_inspector (0.0.2)
     devise (3.2.2)
       bcrypt-ruby (~> 3.0)
@@ -224,7 +224,7 @@ DEPENDENCIES
   coffee-rails
   coveralls
   cucumber-rails
-  database_cleaner (= 1.0.1)
+  database_cleaner
   devise
   email_spec
   factory_girl_rails
