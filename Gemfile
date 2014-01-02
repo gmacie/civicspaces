@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '4.1.0.beta1'
 
 # Use jquery as the JavaScript library.
 gem 'jquery-rails'
@@ -27,7 +27,7 @@ gem 'uglifier'
 
 gem 'geocoder'
 
-gem 'figaro'
+gem 'figaro', :git => 'git://github.com/laserlemon/figaro.git'
 
 gem 'rabl'
 
@@ -53,7 +53,7 @@ end
 group :test do
   gem 'capybara'
   gem 'cucumber-rails', require: false
-  gem 'database_cleaner', '1.0.1'
+  gem 'database_cleaner'
   gem 'email_spec'
   gem 'launchy'
 end
