@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0.beta2'
+gem 'rails', '4.1.1'
 
 # Use jquery as the JavaScript library.
 gem 'jquery-rails'
@@ -14,7 +14,7 @@ gem 'devise'
 
 # There is no group assets in rails 4.
 # Use SCSS for stylesheets.
-gem 'sass-rails'
+gem 'sass'
 
 # add gmacie 08/09/2013
 # removed 12-05-13 gem 'bootstrap-sass', '~> 2.3.2.1'
